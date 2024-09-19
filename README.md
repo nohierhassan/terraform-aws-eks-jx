@@ -100,7 +100,7 @@ Refer to [Production cluster considerations](#production-cluster-considerations)
 
 If you already have created an EKS cluster using a pre 3.0.0 version of this module there is unfortunately no easy 
 way to upgrade without recreating the cluster. If you already create the cluster in some other way and now set 
-`create_eks = false` you only n eed to remove some inputs. I won't cover that much simpler case here.
+`create_eks = false` you only need to remove some inputs. I won't cover that much simpler case here.
 
 While it would be a bit easier if you started using the same version of `terraform-aws-modules/eks/aws` as previously used by this module we 
 would advise against that. The reason is that this version is very old and doesn't support a lot of feature currently available with AWS.
